@@ -22,6 +22,7 @@ The Detection Lab project aimed to establish a controlled environment for simula
 - Telemetry generation tools to create realistic network traffic and attack scenarios.
 
 ## Steps
+### Creating Domain Controller VM "DC"
 1. Downloaded Oracle virtualbox
 2. Download windows 10 ISO
 3. Download Windows Server 2019 ISO
@@ -66,7 +67,23 @@ The Detection Lab project aimed to establish a controlled environment for simula
 36. Open Windows Powershell ISE and Run as administrator
 38. Launch Powershell script
 39. In powershell make a new line and type this command Set-ExecutionPolicy Unrestricted (select Yes to all)
-40. 
+40. Run it
+41. Refresh Active Directory Domain
+42. New User Folder should apear with all the users just created
+43. now you can close this VM
+### Last step is to create a Windows 10 Virtual Machine to see the client side of Active Directory "CLIENT1"
+
+45. Go back to Virtual Box Create a new Virtual Machine (Windows 10 64bit) 
+46. Change the network adapter to internal
+47. Run Vm and Mount Windows 10 ISO from earlier
+48. Set up Windows 10 (windows 10 Pro)
+49. Custom install
+50. Once you load into Client VM and make sure its connected to internet
+51. Rename VM and pair it with domain
+52. Restart VM
+53. Login via other user and imput one of the accounts we set up earlier
+54. check whoami command and make sure its the created account and its within the DC domain
+55. WE HAVE NOW CREATED A MINI CORPORATE SYTEM!!!!!!!
 
 
 *Ref 1: Network Diagram*
