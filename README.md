@@ -73,7 +73,7 @@ This GitHub repository documents the setup and configuration of an Active Direct
 
      ![Screenshot 2024-11-19 172709](https://github.com/user-attachments/assets/78d7add9-9571-442e-8617-c336f201bb80)
 
-22. create new user within the new ADMIN directory
+22. Create new user within the new ADMIN directory
 
     ![Screenshot 2024-11-19 173026](https://github.com/user-attachments/assets/f44338e2-ffc6-4b89-8122-6061a2fcdcb1)
 
@@ -81,13 +81,13 @@ This GitHub repository documents the setup and configuration of an Active Direct
 
     ![Screenshot 2024-11-19 173159](https://github.com/user-attachments/assets/ce7ebbdc-763d-4803-a7f4-d28cb9bd8a28)
 
-24. log into new user
+24. Log into new user
 25. Add new roles and features
 26. Select remote access with routing and install
 
     ![Screenshot 2024-11-19 175041](https://github.com/user-attachments/assets/73bed18f-c86a-49eb-9ca3-f19ee904aa35)
 
-27. then select tools, routing and remote acess, DC Configure, and install NAT
+27. Then select tools, routing and remote acess, DC Configure, and install NAT
 
     ![Screenshot 2024-11-19 175500](https://github.com/user-attachments/assets/bc53a2bc-a79e-47d6-9c55-98f699d9f0d6)
 
@@ -128,7 +128,7 @@ This GitHub repository documents the setup and configuration of an Active Direct
 
     ![Screenshot 2024-11-19 183537](https://github.com/user-attachments/assets/e646bbfc-d590-49f8-b633-215960efc633)
 
-43. now you can close this VM
+43. Now you can close this VM
     
 ## Last step is to create a Windows 10 Virtual Machine to see the client side of Active Directory "CLIENT1"
 
@@ -153,7 +153,7 @@ This GitHub repository documents the setup and configuration of an Active Direct
 
     ![Screenshot 2024-11-19 190723](https://github.com/user-attachments/assets/c5a412ce-a270-452a-a7ac-62e14330bfd5)
 
-53. check "whoami" in cmd center and make sure its one of the created accounts and its within the DC domain
+53. Check "whoami" in cmd center and make sure its one of the created accounts and its within the DC domain
 
     ![Screenshot 2024-11-19 190951](https://github.com/user-attachments/assets/318612e8-8e1d-45c7-937d-05250044aedb)
 
